@@ -144,7 +144,7 @@ if(isset($_POST['btn_submit'])){
 										 
 									</div>
 									<div style="height:15px;"></div>
-										<form class="myform" action="login.php"  method="post" autocomplete="off">
+										<form class="myform" action="index.php"  method="post" autocomplete="off">
 									
 										<div class="form-group">
                                         	<div class="col-md-3" style="text-align:left; padding-right:0px;">

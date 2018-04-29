@@ -7,7 +7,7 @@ error_reporting(0);
 
 if( $_SESSION['staff_id'] == '' || !isset($_SESSION['staff_id']))
 {
-    header('location:login.php');
+    header('location:index.php');
 }
 
 

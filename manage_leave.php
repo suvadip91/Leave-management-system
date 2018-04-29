@@ -4,7 +4,7 @@
 	
 	if($_SESSION['staff_id']=='' || !isset($_SESSION['staff_id']) || $_SESSION['staff_cat']=='FAC' || $_SESSION['staff_cat']=='NFAC'){
 		
-		header('location:login.php');
+		header('location:index.php');
 
 	}
 

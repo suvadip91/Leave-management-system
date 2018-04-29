@@ -209,7 +209,7 @@ if(isset($_POST['submit_btn'])){
 								<button type="submit" id="btn_submit" name="submit_btn" class="btn btn-success btn-block">SIGN UP</button>
 							</div>
 							<div class="form-group">
-								<a href="login.php"><input type="button" id="button2" class="btn btn-danger btn-block" value="BACK"></a>
+								<a href="index.php"><input type="button" id="button2" class="btn btn-danger btn-block" value="BACK"></a>
 							</div>
 						</form>
 						</div>

@@ -5,7 +5,7 @@ require 'conn.php';
 require 'function.php';
 $err_str='';
 if(!isset($_SESSION['staff_id']) || $_SESSION['staff_id']==''){
-    header('location:login.php');
+    header('location:index.php');
 }
 include 'header.php';
 

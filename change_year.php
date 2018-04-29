@@ -5,7 +5,7 @@
 
 	if( $_SESSION['staff_id'] == '' || !isset($_SESSION['staff_id']) || $_SESSION['staff_cat']!='PRINCIPAL')
 	{
-		header('location:login.php');
+		header('location:index.php');
 	}
 	
 	
