@@ -1,0 +1,26 @@
+<?php 
+session_start();
+require 'conn.php';
+require "function.php";
+
+if( $_SESSION['staff_id'] == '' || !isset($_SESSION['staff_id']))
+{
+	header('location:login.php');
+}
+
+
+$menu_num = 1;
+$page_name = "Dashboard";
+include "header.php";
+
+
+$sql="select * from staff where staff_id='".$_SESSION['staff_id']."'";
+$result_query=mysql_query($sql,$dblink);
+$row=mysql_fetch_assoc($result_query);
+
+?>
+
+
+
+
+<?php include "footer.php";?>

@@ -1,0 +1,31 @@
+.reg_page_img{
+    width:150px;
+    height:150px;
+
+}
+.reg_page_list{
+    display:inline-block;
+    padding:10px;
+
+}
+.reg_page_ul{
+    list-style: none;
+   
+
+}
+.upload_img_btn{
+    width:300px;
+    height:30px;
+    position:absolute;
+    background-color:#aaa;
+    color:white;
+    border-radius:30px;
+    text-align:center;
+    font-weight:bold;
+    padding-top:5px;
+   
+}
+#upload_img:hover{
+    cursor:pointer;
+    
+}
